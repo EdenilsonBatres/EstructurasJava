@@ -31,8 +31,10 @@ public class Main {
         }
         while (numeroDo_while < 1);
         //buble for
-        for (int numeroFor = 0; numeroFor <= 3; numeroFor++)
+        int numeroFor = 0;
+        for (int i = 0; i <= 3; i++)
         {
+            numeroFor = i;
             System.out.println(numeroFor);
         }
         //bucle switch
